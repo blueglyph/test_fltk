@@ -19,7 +19,7 @@ class UserInterface {open
         xywh {10 5 240 20} box FLAT_BOX down_box THIN_UP_FRAME
       } {
         Submenu {} {
-          label File open
+          label {F&ile} open
           xywh {5 5 62 20}
         } {
           MenuItem {} {
@@ -36,7 +36,7 @@ class UserInterface {open
           }
         }
         Submenu {} {
-          label Edit open
+          label {&Edit} open
           xywh {5 5 62 20}
         } {
           MenuItem {} {
