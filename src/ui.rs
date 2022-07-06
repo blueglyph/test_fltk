@@ -47,9 +47,11 @@ impl UserInterface {
 	fl2rust_widget_0.set_frame(FrameType::FlatBox);
 	fl2rust_widget_0.set_down_frame(FrameType::ThinUpFrame);
 	my_win.add(&fl2rust_widget_0);
+	{F&ile}.set_label_size(12);
 	fl2rust_widget_0.add("F&ile/Open", Shortcut::None, MenuFlag::Normal, |_| {});
 	fl2rust_widget_0.add("F&ile/Save", Shortcut::None, MenuFlag::Normal, |_| {});
 	fl2rust_widget_0.add("F&ile/Exit", Shortcut::None, MenuFlag::Normal, |_| {});
+	{&Edit}.set_label_size(12);
 	fl2rust_widget_0.add("&Edit/Copy", Shortcut::None, MenuFlag::Normal, |_| {});
 	fl2rust_widget_0.add("&Edit/Paste", Shortcut::None, MenuFlag::Normal, |_| {});
 	Self { my_win, btn, }

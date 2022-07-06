@@ -20,7 +20,7 @@ class UserInterface {open
       } {
         Submenu {} {
           label {F&ile} open
-          xywh {5 5 62 20}
+          xywh {5 5 62 20} labelsize 12
         } {
           MenuItem {} {
             label Open
@@ -36,8 +36,8 @@ class UserInterface {open
           }
         }
         Submenu {} {
-          label {&Edit} open
-          xywh {5 5 62 20}
+          label {&Edit} open selected
+          xywh {5 5 62 20} labelsize 12
         } {
           MenuItem {} {
             label Copy
